@@ -14,3 +14,33 @@ h2 {
   line-height: 125.5%;
 }
 /*------------------------------------------------------------------------*/
+header {
+  min-height: 600px;
+  background: url('../../img/header_bg.png') no-repeat center center / cover;
+  padding-top: 40px;
+}
+header .header_top_line {
+  display: flex;
+}
+header .header_top_line .top_line_logo {
+  width: 25%;
+}
+header .header_top_line .top_line_menu {
+  width: 75%;
+  margin-top: 15px;
+  text-align: right;
+}
+header .header_top_line .top_line_menu ul {
+  display: flex;
+  justify-content: space-between;
+}
+header .header_top_line .top_line_menu ul li {
+  list-style: none;
+}
+header .header_top_line .top_line_menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 125.5%;
+}

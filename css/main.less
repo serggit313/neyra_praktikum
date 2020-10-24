@@ -22,3 +22,46 @@ h2 {
 }
 
 /*------------------------------------------------------------------------*/
+
+
+// header
+
+header {
+    min-height: 600px;
+    background: url('../../img/header_bg.png') no-repeat center center/cover;
+    padding-top: 40px;
+
+    .header_top_line {
+        display: flex;
+        .top_line_logo
+        {
+            width: 25%;
+            // border: 1px solid red;
+        }
+        .top_line_menu 
+        {
+            width: 75%;
+            margin-top: 15px;
+            // border: 1px solid red;
+            text-align: right;
+            ul {
+                display: flex;
+                justify-content: space-between;
+                li {
+                    list-style: none;
+
+                    a 
+                    {
+                        text-decoration: none;
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 125.5%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// end header
